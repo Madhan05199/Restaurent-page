@@ -1,0 +1,119 @@
+/*=============================
+* Common CSS
+===============================*/
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+#main_menu a.active{
+    color: red;
+    font-weight: 600;
+}
+h1{
+    color: #502314;
+    font-size:60px;
+    font-weight:900;
+}
+h3{
+    color: #502314;
+    font-size:25px;
+    font-weight:600;  
+}
+span{
+    color: #502314;
+    font-size:25px;
+    font-weight:700;
+}
+p{
+    font-size:15px;
+}
+/* Padding Top for Some Section  */
+#about, #work, #service, #contact{
+    padding-top: 110px;
+  }
+
+/* nav section */
+#main_menu nav{
+    background: #ebe2d3;
+    font-weight: 500;
+}
+
+#main_menu nav li{
+    margin-left:11px;
+}
+
+#main_menu nav li a.active{
+    color:#d62300;
+}
+
+  /* slider section */
+#mycarousel{
+ padding-top:85px;
+}
+    /* about section */
+.btn.btn-info{
+    background-color: #d62300;
+    border:1px solid #d62300;
+    color:white;
+    border-radius:25px;
+    padding:12px 30px; 
+}
+
+   /* work section */
+#work{
+   background-color:#ebe2d3 !important; 
+    padding:20px 0px;
+}
+h4{
+ line-height:35px; 
+ color: #502314 !important; 
+}
+p{
+ font-size:16px;   
+}
+
+#work button{
+    background-color: #d62300;
+    border:1px solid #d62300;
+    color:white;
+    border-radius:25px;
+    padding:12px 30px;   
+}
+/* Service section */
+#service{
+    padding:5em 0px !important;
+}
+
+/* contact section */
+#contact{
+    background:url(../images/map.jpg);
+    padding:9em 0em;
+}
+
+/* footer section */
+#footer ul li a{
+ color:#262626; 
+ font-weight:500; 
+ text-decoration:none;
+}
+
+#footer button{
+ border-radius:0;   
+}
+/* responsive style */
+
+@media(max-width:600px){
+ #main_menu img{
+ width:200px
+ }  
+ #mycarousel{
+    padding-top:65px;
+  }
+  #about{
+  padding-top:30px;  
+  }
+  h1{
+    font-size:35px;
+    text-transform: uppercase;
+  }
+}
